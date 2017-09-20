@@ -11,7 +11,7 @@ TL;DR
 
 Sounds good so far? Great! If not, it's not like you have a choice if you've been assigned to QA for Apollo 2. So you'd best prepare your body and let's get started!
 
-![reggie's body is ready for some spec tests](https://gist.github.com/foxnewsnetwork/ea10218f33686a0767e41d1df2070149/raw/a6d9e41584fdce7bc240962914fa6c33c956b30a/01-body-is-ready.jpg)
+![reggie's body is ready for some spec tests](https://gist.github.com/foxnewsnetwork/ea10218f33686a0767e41d1df2070149/raw/a6d9e41584fdce7bc240962914fa6c33c956b30a/01-body-is-ready.jpg =256x*)
 
 First, you'll need to get access to the Apollo 2 repo. You probably already have this, but if not, get access to the Sony repo by talking to your manager. Once this is done, use git to clone the repo:
 
@@ -38,7 +38,7 @@ npm install
 
 This should take a million years, but eventually this should finish and, congrats, you're now setup to develop and test apollo 2.
 
-![party parrots](https://i.amz.mshcdn.com/DwsIlvbRG3T0Rtb1xss4yqskHW4=/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F529652%2Ff651862e-4cfe-4a4e-b227-2e9b73347ad7.jpg)
+![party parrots](https://i.amz.mshcdn.com/DwsIlvbRG3T0Rtb1xss4yqskHW4=/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F529652%2Ff651862e-4cfe-4a4e-b227-2e9b73347ad7.jpg =100%x*)
 
 ## Run the tests!
 
@@ -76,6 +76,6 @@ Once you've done this, it's time to jump in at the deep end and try writing it o
 ## Links
 [Table of Contents](/)
 
-[Previous](./introduction)
+[Previous](./01-introduction)
 
-[Next](./our-first-spec)
+[Next](./03-our-first-spec)

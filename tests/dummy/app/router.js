@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('guides', { path: '/' }, function() {
+    this.route('guide', { path: '/guide/:id' });
+    this.route('table-of-contents', { path: '/' });
+  });
 });
 
 export default Router;

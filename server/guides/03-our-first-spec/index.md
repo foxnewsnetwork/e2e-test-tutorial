@@ -162,6 +162,6 @@ Next up, we will actually boot up the apollo2 app and write our first *real* tes
 ## Links
 [Table of Contents](/)
 
-[Previous](/getting-started)
+[Previous](./02-getting-started)
 
-[Next](/booting-the-app)
+[Next](./04-booting-the-app)

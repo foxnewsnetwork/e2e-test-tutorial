@@ -1,0 +1,5 @@
+{{#each model as |guide|}}
+  {{#link-to 'guides.guide' guide.id}}
+    {{guide.id}}
+  {{/link-to}}
+{{/each}}

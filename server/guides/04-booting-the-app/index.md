@@ -198,6 +198,6 @@ In this chapter, we learned about how to setup and load the Apollo 2 app. Howeve
 ## Links
 [Table of Contents](/)
 
-[Previous](./out-first-spec)
+[Previous](./03-out-first-spec)
 
-[Next](./async-testing)
+[Next](./05-async-testing)

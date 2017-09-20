@@ -1,6 +1,7 @@
 /***************
  * Styles specific for the ember-paper demo site
  ***************/
+ @import 'highlight';
  @import 'highlight-overrides';
  @import 'layout-demo';
 
@@ -33,6 +34,9 @@
 
  #main {
    position: relative;
+   padding: 1em;
+   max-width: 100vw;
+   overflow-x: hidden;
  }
 
   md-select-menu md-content md-option:not([disabled]):focus, md-select-menu.md-default-theme md-content md-option:not([disabled]):hover, md-select-menu md-content md-option:not([disabled]):hover {
@@ -48,6 +52,10 @@
 
  .flex-start {
    align-self: flex-start;
+ }
+
+ img {
+   max-width: 100%;
  }
 
  /***************

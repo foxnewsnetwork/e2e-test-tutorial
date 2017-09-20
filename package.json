@@ -32,9 +32,9 @@
     "ember-cli-qunit": "^4.0.0",
     "ember-cli-sass": "^7.0.0",
     "ember-cli-shims": "^1.1.0",
-    "ember-cli-showdown": "^4.1.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-data": "^2.15.0",
     "ember-disable-prototype-extensions": "^1.1.2",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
@@ -44,7 +44,9 @@
     "express": "^4.15.4",
     "glob": "^4.5.3",
     "loader.js": "^4.2.3",
-    "morgan": "^1.8.2"
+    "morgan": "^1.8.2",
+    "showdown": "^1.7.4",
+    "showdown-highlightjs-extension": "^0.1.2"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
