@@ -12,8 +12,8 @@ In the very beginning, JavaScript handled this with callbacks. But what's a call
 It's exactly what it shoulds like, it's function that will be "called" when a result gets "back" to us. For example:
 
 ```javascript
-ajax('/kamaji/session', (result) => {
-  console.log('Hey, Kamaji got back to us with the following result', result);
+ajax('/user/session', (result) => {
+  console.log('Hey, user got back to us with the following result', result);
 })
 ```
 
@@ -25,11 +25,11 @@ For a period of about a decade, every single website was built using this sort o
 For example, if we wanted to model the English sentence "Make a request to Kamaji, extract the product ID from the results, use that to make a request to Pegasus, get the entitlementID from there, then launch the game via PSCLOUD", we'd have to do:
 
 ```javascript
-ajax('/kamaji/session', (result) => {
+ajax('/user/session', (result) => {
   const productId = result.product_id;
-  ajax(`/pegasus/${productId}`, (result) => {
+  ajax(`/game/${productId}`, (result) => {
     const entitlementId = result.defaultSku.entitlement_id
-    PSCloud.launchGame(productId, entitlementId, (result) => {
+    streamLauncher.launchGame(productId, entitlementId, (result) => {
       console.log('launched game!', result);
     })
   })
@@ -52,13 +52,13 @@ A Promise is an object that represents the result of a calculation that can't be
 If we invented an `ajaxPromise` function, we would be able to model our above English sentence as:
 
 ```javascript
-ajaxPromise('/kamaji/session')
+ajaxPromise('/user/session')
 .then((result) => {
   const productId = result.product_id;
-  return ajaxPromise(`/pegasus/${productId}`);
+  return ajaxPromise(`/product/${productId}`);
 })
 .then((result) => {
-  return PSCloudPromise.launchGame(result)
+  return streamLauncherPromise.launchGame(result)
 })
 ```
 
@@ -76,9 +76,9 @@ So for the ES2017 version of JavaScript, `async` and `await` will come in as an 
 
 ```javascript
 async function requestLaunchGame() {
-  const { productId } = await ajaxPromise('/kamaji/session');
-  const { entitlementId } = await ajaxPromise(`/pegasus/${productId}`);
-  return await PSCloudPromise.launchGame({ productId, entitlementId });
+  const { productId } = await ajaxPromise('/user/session');
+  const { entitlementId } = await ajaxPromise(`/product/${productId}`);
+  return await streamLauncherPromise.launchGame({ productId, entitlementId });
 }
 ```
 

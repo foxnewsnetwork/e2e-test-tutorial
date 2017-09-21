@@ -17,8 +17,8 @@ Open up the newly generated file in your favorite editor; it should look somethi
 ```javascript
 import { describe, it, beforeEach, afterEach } from 'mocha';
 import { expect } from 'chai';
-import startApp from 'apollo2/tests/helpers/start-app';
-import destroyApp from 'apollo2/tests/helpers/destroy-app';
+import startApp from 'crapollo/tests/helpers/start-app';
+import destroyApp from 'crapollo/tests/helpers/destroy-app';
 
 describe('Acceptance | specs/hello world', function() {
   let application;

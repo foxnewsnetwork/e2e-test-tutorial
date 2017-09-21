@@ -18,8 +18,8 @@ And we will add to our `hello-world-test.js` file until it looks like the follow
 ```javascript
 import { describe, it, before, after } from 'mocha';
 import { expect } from 'chai';
-import startApp from 'apollo2/tests/helpers/start-app';
-import destroyApp from 'apollo2/tests/helpers/destroy-app';
+import startApp from 'crapollo/tests/helpers/start-app';
+import destroyApp from 'crapollo/tests/helpers/destroy-app';
 
 describe('Acceptance | Sanity | specs/hello-world', () => {
   let application;
@@ -79,7 +79,7 @@ In each test, you'll notice we are spinning up an app, testing something, then t
 
 ```javascript
 import { describe, it, before } from 'mocha';
-describe('apollo test basics II', () => {
+describe('crapollo test basics II', () => {
   let application;
   before(() => {
     application = startApp()
@@ -109,7 +109,7 @@ Luckily, the `after` function does exact this:
 
 ```javascript
 import { describe, it, before, after } from 'mocha';
-describe('apollo test basics III', () => {
+describe('crapollo test basics III', () => {
   let application;
   before(() => {
     application = startApp()
@@ -155,8 +155,8 @@ Next are the test helpers. Where `before` and `after` are functions that come as
 The two we will go over right now are `startApp` and its complement `destroyApp`:
 
 ```javascript
-import startApp from 'apollo2/tests/helpers/start-app';
-import destroyApp from 'apollo2/tests/helpers/destroy-app';
+import startApp from 'crapollo/tests/helpers/start-app';
+import destroyApp from 'crapollo/tests/helpers/destroy-app';
 ```
 ### startApp
 So what does `startApp` do? 
@@ -176,8 +176,8 @@ In spec testing, if you ever `startApp`, you must always remember to `destroyApp
 
 ```javascript
 import { describe, it, before, after } from 'mocha';
-import startApp from 'apollo2/tests/helpers/start-app';
-import destroyApp from 'apollo2/tests/helpers/destroy-app';
+import startApp from 'crapollo/tests/helpers/start-app';
+import destroyApp from 'crapollo/tests/helpers/destroy-app';
 
 describe('before-after', () => {
   let application;
