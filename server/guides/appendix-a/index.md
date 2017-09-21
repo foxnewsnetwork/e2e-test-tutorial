@@ -158,6 +158,100 @@ tom.whatIsThis(); // the `window` object
 
 When you create a function with a fat arrow, the `this` pronoun refers to the context where the function was declared (this is called "lexical scope"), and this didn't change even if we attached that function to something else.
 
+## Homework
+Have a good feel for how javascript works now? Crank through the next few homework problems at your desk!
+
+### Q: Get familiar calling functions! 
+
+Given to two following two functions:
+
+```javascript
+function greet(person) {
+  return `hey ${person}, `;
+}
+
+function areFired(someone) {
+  return `${someone} are fired!`;
+}
+```
+
+And the object:
+
+```javascript
+let person = 'tom';
+```
+
+Use the function to construct the sentence `'hey tom, you are fired!'`
+
+### Q: Writing your own functions
+
+Remember, functions can take other functions as arguments and return other functions
+
+Create a `myFun` that can be used like so to make the following statements true:
+
+```javascript
+myFun('sony') === 'oh no, sony is finished';
+myFun('microsoft') === 'oh no, microsoft is finished';
+```
+
+### Q: Functions as arguments and return values
+
+In JavaScript, functions are also objects and can be used as arguments and return values.
+
+Given the following 2 functions:
+
+```javascript
+function plus1(number) {
+  return number + 1;
+}
+
+function times4(number) {
+  return number * 4;
+}
+```
+
+Fill in the contents of the following function:
+
+```javascript
+function myHigherFun(number) {
+  return // your code here!
+}
+```
+
+Such that the following test statement is true:
+
+```javascript
+myFun(4) === 20
+```
+
+## Solutions
+
+At least attempt each problem before looking at the solutions!
+
+### S: Calling Functions
+
+```javascript
+areFired(greet(person));
+```
+
+### S: Writing functions
+
+```javascript
+function myFun(company) {
+  return `oh no, ${company} is finished`;
+}
+```
+
+### S: Higher Order functions
+
+```javascript
+function myHigherFun(number) {
+  return times4(plus1(number));
+}
+```
+
+[For the really motivated, do some code katas from the internet!](https://www.codewars.com/?language=javascript)
+
 ## Links
 [Table of Contents](/)
 

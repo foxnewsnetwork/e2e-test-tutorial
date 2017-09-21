@@ -1,7 +1,7 @@
 # Introduction
 
 ## About this Tutorial
-This is the beginning of the Apollo 2 spec testing tutorial, going through this tutorial should be the first steps in helping not only write step-by-step spec tests for Apollo 2, but also get you started into the world of javascript programming.
+This is the beginning of the end-to-end spec testing tutorial, going through this tutorial should be the first steps in helping not only write step-by-step spec tests, but also get you started into the world of javascript programming.
 
 The structure of this tutorial is unabashedly stolen from [LearnYouSomeErlang](http://learnyousomeerlang.com/introduction), which is in turn inspired by [LearnYouSomeHaskell](http://learnyouahaskell.com/introduction). If you're truly aspiring to joy the autistic ranks of a software developer, sooner or later, you probably should go through those other tutorials. But for now, let's start with spec testing with javascript.
 
