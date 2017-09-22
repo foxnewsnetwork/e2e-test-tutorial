@@ -4,7 +4,7 @@ At the end of the day, front-end JavaScript is used build user interactions. And
 
 Modern JavaScript has `async` functions, `promise`s, and `future`s to handle all this, but before we can understand what they are and how to use, them, we must go back to the very beginning:
 
-![let's go back](/images/appendix-b/back-to-reddit.png)
+![let's go back](./appendix-b/back-to-reddit.png)
 
 ## Callbacks
 In the very beginning, JavaScript handled this with callbacks. But what's a callback?
@@ -35,13 +35,13 @@ ajax('/user/session', (result) => {
   })
 })
 ```
-![callbacks lead to thick nesting](/images/appendix-b/thicc.png)
+![callbacks lead to thick nesting](./appendix-b/thicc.png)
 
 Notice how thickly nested this is; as an industry, web-development found this sort of thicc nesting abhorrent, having no choice, we lived under the heavy and oppressive reign of the thick callback stack.
 
 Many developers, unable to stock such thickness and unable to find these big beautiful code curves to be understandable, fled in droves to the neighboring lands of Ruby, Python, and other flatter languages
 
-![ruby is flatter than JS callbacks](/images/appendix-b/ruby.png)
+![ruby is flatter than JS callbacks](./appendix-b/ruby.png)
 
 ## Promises
 
@@ -70,7 +70,7 @@ Here, `then` is a method on the `promise` that allows to register a callback fun
 
 But what if we wanted to go flatter? Without modifying the exact bone/skeletal/DNA structure of the javascript language itself, this wasn't possible. However, some time in 2015, engineers at Mozilla proposed to the World Web Committee exactly this change to the language. 
 
-![mozilla really, really, really likes flat](/images/appendix-b/firefox.png)
+![mozilla really, really, really likes flat](./appendix-b/firefox.png)
 
 So for the ES2017 version of JavaScript, `async` and `await` will come in as an alternative way to work with promises that will produce maximum flatness.
 

@@ -2,7 +2,7 @@
 
 So far we've got our feet wet with writing our first spec test, but we've yet to actually test Apollo! In this chapter, we'll boot the app for real and try our best to write a real end-to-end test:
 
-![I'm a real SDET now](/images/booting-the-app/real-boy-now.png)
+![I'm a real SDET now](./booting-the-app/real-boy-now.png)
 
 ## TL;DR
 
@@ -167,7 +167,7 @@ In addition, the `startApp` function returns a reference to our application. Thi
 
 But for our purposes, we won't actually be using the `application` object under normal circumstances, instead, the effect of calling `startApp` merely serves the purpose of creating the little app we see at the bottom right corner of our test chrome page:
 
-![this is what startApp creates that we then use to test](/images/booting-the-app/apollo-app-in-testing-2.png)
+![this is what startApp creates that we then use to test](./booting-the-app/apollo-app-in-testing-2.png)
 
 ### destroyApp
 Once we have `startApp`, we need to also `destroyApp` once we're finished with it. This sort of cleaning up after yourelf is good practice not just in programming, but also in real life. After all, after you have dinner, you don't leave the dishes around for someone else to find out and be annoyed by, you clean your dishes and put them back into the cupboard for the next meal.

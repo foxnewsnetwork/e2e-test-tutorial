@@ -4,7 +4,7 @@ If you've been following this tutorial and running your tests as we go, you'll h
 
 The very nature that a lot of these things like booting our app takes time means we'll have to learn how to deal with time in our testing before we can properly test our app.
 
-![E2E testing must necessarily incorporate the idea of time](/images/async-testing/nature-of-time.png)
+![E2E testing must necessarily incorporate the idea of time](./async-testing/nature-of-time.png)
 
 ## TL;DR
 
