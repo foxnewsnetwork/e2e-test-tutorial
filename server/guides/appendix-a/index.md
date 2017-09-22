@@ -2,7 +2,7 @@
 
 Welcome to the JavaScript crash course. JavaScript is a weird language; some people woud even say it's a "badly designed" language. However, it is the gun the industry has chosen to conquer the world of front-end design.
 
-![javascript is a badly designed gun](./appendix-a/javascript-is-a-gun.png)
+![javascript is a badly designed gun](./images/appendix-a/javascript-is-a-gun.png)
 
 If you're new to programming JavaScript, there is no way in hell you'll walk out of this chapter being a master of modern JavaScript (also known as ECMAScript). But there is no harm in trying, so let's get started!
 

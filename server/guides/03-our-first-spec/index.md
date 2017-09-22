@@ -147,7 +147,7 @@ ember test --serve --filter='specs/hello-world'
 
 If you see the following, congrats, everything works!
 
-![expected results in your browser](/images/our-first-spec/expected-results.png)
+![expected results in your browser](./images/our-first-spec/expected-results.png)
 
 ### Breaking down the results
 

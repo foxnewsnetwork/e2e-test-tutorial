@@ -70,7 +70,7 @@ Here, `then` is a method on the `promise` that allows to register a callback fun
 
 But what if we wanted to go flatter? Without modifying the exact bone/skeletal/DNA structure of the javascript language itself, this wasn't possible. However, some time in 2015, engineers at Mozilla proposed to the World Web Committee exactly this change to the language. 
 
-![mozilla really, really, really likes flat](./appendix-b/firefox.png)
+![mozilla really, really, really likes flat](./images/appendix-b/firefox.png)
 
 So for the ES2017 version of JavaScript, `async` and `await` will come in as an alternative way to work with promises that will produce maximum flatness.
 
