@@ -158,10 +158,3 @@ Similar, our test written in our `it('should be ok', () => { ... })` is showing 
 All one of our tests passed, none failed, and the tests ran for a duration of 70ms.
 
 Next up, we will actually boot up the crapollo app and write our first *real* test.
-
-## Links
-[Table of Contents](#/)
-
-[Previous](#/guide/02-getting-started)
-
-[Next](#/guide/04-booting-the-app)

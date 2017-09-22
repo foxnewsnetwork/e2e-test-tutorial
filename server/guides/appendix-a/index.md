@@ -251,10 +251,3 @@ function myHigherFun(number) {
 ```
 
 [For the really motivated, do some code katas from the internet!](https://www.codewars.com/?language=javascript)
-
-## Links
-[Table of Contents](#/)
-
-[Previous](#/guide/conclusion)
-
-[Next](#/guide/appendix-b)

@@ -194,10 +194,3 @@ describe('before-after', () => {
 ## Summary
 
 In this chapter, we learned about how to setup and load the Apollo 2 app. However, we haven't actually run any tests against it. In the next chapter, we will go over actually testing the app.
-
-## Links
-[Table of Contents](#/)
-
-[Previous](#/guide/03-out-first-spec)
-
-[Next](#/guide/05-async-testing)

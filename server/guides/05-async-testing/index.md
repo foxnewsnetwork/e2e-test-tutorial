@@ -35,10 +35,3 @@ describe('Acceptance | Sanity | specs/hello-world', () => {
   });
 });
 ```
-
-## Links
-[Table of Contents](#/)
-
-[Previous](#/guide/booting-the-app)
-
-[Next](#/guide/intro-to-page-objects)

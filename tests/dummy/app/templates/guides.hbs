@@ -1,1 +1,19 @@
-{{outlet}}
+<div class='flex layout-column'>
+  {{outlet}}
+</div>
+<div class='flex layout-column'>
+  <div class='flex layout-row layout-align-center-center'>
+    {{#link-to 'guides'}}
+      Table of Contents
+    {{/link-to}}
+  </div>
+  <div class='flex layout-row'>
+    {{#each model as |guide|}}
+      {{#link-to 'guides.guide' guide.id}}
+        {{guide.id}}
+      {{/link-to}}
+    {{/each}}
+  </div>
+</div>
+
+

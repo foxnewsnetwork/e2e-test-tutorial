@@ -68,10 +68,3 @@ If everything went correctly, you should have seen the above two images replicat
 >PS: don't worry if any of these terms are confusing at, everything will make sense over time
 
 Once you've done this, it's time to jump in at the deep end and try writing it on your own.
-
-## Links
-[Table of Contents](#/)
-
-[Previous](#/guide/01-introduction)
-
-[Next](#/guide/03-our-first-spec)

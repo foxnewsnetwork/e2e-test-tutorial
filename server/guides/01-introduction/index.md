@@ -12,11 +12,3 @@ Spec tests, also called Acceptance tests in Ember land, is a type of software te
 In many ways, if the world of software bug hunting is a disease, then unit tests are what the developers use in the development of curative drugs, while end-to-end spec tests are the doctors who give you your daily dose of health.
 
 ![piccolo gives you your daily dose](https://gist.githubusercontent.com/foxnewsnetwork/ea10218f33686a0767e41d1df2070149/raw/c5b125cfebd37f0c1d17cc87d3ed5a415f404fd4/00-daily-dose.png)
-
-
-## Links
-[Table of Contents](#/)
-
-[Previous](#/)
-
-[Next](#/guide/02-getting-started)
