@@ -16,7 +16,7 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each",
-    "github-pages": "ember github-pages:commit --message='gh page commit' --environment=development",
+    "github-pages": "ember github-pages:commit --message='gh page commit'",
     "push-gh-pages": "git push origin gh-pages:gh-pages",
     "github": "npm run github-pages && npm run push-gh-pages"
   },
