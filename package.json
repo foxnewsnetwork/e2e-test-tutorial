@@ -15,7 +15,10 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember try:each"
+    "test": "ember try:each",
+    "github-pages": "ember github-pages:commit --message='gh page commit' --environment=development",
+    "push-gh-pages": "git push origin gh-pages:gh-pages",
+    "github": "npm run github-pages && npm run push-gh-pages"
   },
   "dependencies": {
     "ember-cli-babel": "^6.3.0"
