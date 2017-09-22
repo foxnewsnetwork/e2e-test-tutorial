@@ -1,6 +1,6 @@
 # ap2-e2e-tutorial
 
-This README outlines the details of collaborating on this Ember addon.
+https://foxnewsnetwork.github.io/e2e-test-tutorial/
 
 ## Installation
 
