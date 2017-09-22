@@ -15,8 +15,8 @@ In many ways, if the world of software bug hunting is a disease, then unit tests
 
 
 ## Links
-[Table of Contents](/#/)
+[Table of Contents](#/)
 
-[Previous](/#/)
+[Previous](#/)
 
-[Next](/#/02-getting-started)
+[Next](#/02-getting-started)

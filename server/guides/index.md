@@ -1,11 +1,11 @@
 # Table of Contents
 
-- [Introduction](/#/introduction)
-- [Getting Started](/#/getting-started)
-- [Our First Spec](/#/our-first-spec)
-- [Booting the App](/#/booting-the-app)
-- [Async Testing](/#/async-testing)
-- [Intro to Page Objects](/#/intro-to-page-objects)
+- [Introduction](#/introduction)
+- [Getting Started](#/getting-started)
+- [Our First Spec](#/our-first-spec)
+- [Booting the App](#/booting-the-app)
+- [Async Testing](#/async-testing)
+- [Intro to Page Objects](#/intro-to-page-objects)
 - Writing Page Objects
 - Page Object Helpers
 - Page Object Components
@@ -21,6 +21,6 @@
 - Setup Selenium Webdriver
 - Running your first performance test
 - Conclusion
-- [Appendix A: Javascript Crash Course](/#/appendix-a)
-- [Appendix B: Javascript and Time](/#/appendix-b)
-- [Appendix C: Object-Oriented Theory](/#/appendix-c)
+- [Appendix A: Javascript Crash Course](#/appendix-a)
+- [Appendix B: Javascript and Time](#/appendix-b)
+- [Appendix C: Object-Oriented Theory](#/appendix-c)

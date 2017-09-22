@@ -160,8 +160,8 @@ All one of our tests passed, none failed, and the tests ran for a duration of 70
 Next up, we will actually boot up the crapollo app and write our first *real* test.
 
 ## Links
-[Table of Contents](/)
+[Table of Contents](#/)
 
-[Previous](./02-getting-started)
+[Previous](#/02-getting-started)
 
-[Next](./04-booting-the-app)
+[Next](#/04-booting-the-app)

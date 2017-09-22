@@ -70,8 +70,8 @@ If everything went correctly, you should have seen the above two images replicat
 Once you've done this, it's time to jump in at the deep end and try writing it on your own.
 
 ## Links
-[Table of Contents](/#/)
+[Table of Contents](#/)
 
-[Previous](/#/01-introduction)
+[Previous](#/01-introduction)
 
-[Next](/#/03-our-first-spec)
+[Next](#/03-our-first-spec)
