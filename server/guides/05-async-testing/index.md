@@ -37,8 +37,8 @@ describe('Acceptance | Sanity | specs/hello-world', () => {
 ```
 
 ## Links
-[Table of Contents](/)
+[Table of Contents](/#/)
 
-[Previous](./booting-the-app)
+[Previous](/#/booting-the-app)
 
-[Next](./intro-to-page-objects)
+[Next](/#/intro-to-page-objects)
