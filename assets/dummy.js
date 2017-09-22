@@ -2,14 +2,14 @@
 
 
 
-define('dummy/adapters/application', ['exports', 'ember-data/adapters/json-api'], function (exports, _jsonApi) {
+define('dummy/adapters/application', ['exports', 'ember-data/adapters/json-api', 'dummy/config/environment'], function (exports, _jsonApi, _environment) {
   'use strict';
 
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
   exports.default = _jsonApi.default.extend({
-    namespace: 'api'
+    namespace: _environment.default.rootURL + 'api'
   });
 });
 define('dummy/app', ['exports', 'dummy/resolver', 'ember-load-initializers', 'dummy/config/environment'], function (exports, _resolver, _emberLoadInitializers, _environment) {
