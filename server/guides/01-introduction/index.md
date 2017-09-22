@@ -19,4 +19,4 @@ In many ways, if the world of software bug hunting is a disease, then unit tests
 
 [Previous](#/)
 
-[Next](#/02-getting-started)
+[Next](#/guide/02-getting-started)

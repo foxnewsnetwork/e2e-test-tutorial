@@ -162,6 +162,6 @@ Next up, we will actually boot up the crapollo app and write our first *real* te
 ## Links
 [Table of Contents](#/)
 
-[Previous](#/02-getting-started)
+[Previous](#/guide/02-getting-started)
 
-[Next](#/04-booting-the-app)
+[Next](#/guide/04-booting-the-app)

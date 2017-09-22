@@ -255,6 +255,6 @@ function myHigherFun(number) {
 ## Links
 [Table of Contents](#/)
 
-[Previous](#/conclusion)
+[Previous](#/guide/conclusion)
 
-[Next](#/appendix-b)
+[Next](#/guide/appendix-b)
