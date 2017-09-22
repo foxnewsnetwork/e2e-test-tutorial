@@ -1,17 +1,17 @@
 {
-  "name": "ap2-e2e-tutorial",
+  "name": "e2e-test-tutorial",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "End to end acceptance / spec testing tutorial for ramping up QA",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Thomas Chen",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "git@github.com:foxnewsnetwork/e2e-test-tutorial.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -26,6 +26,7 @@
     "ember-cli": "~2.15.1",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.0.0",
+    "ember-cli-github-pages": "^0.1.2",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
@@ -40,6 +41,7 @@
     "ember-load-initializers": "^1.0.0",
     "ember-paper": "^1.0.0-beta.3",
     "ember-resolver": "^4.0.0",
+    "ember-selenium-build": "^0.2.0",
     "ember-source": "~2.15.0",
     "express": "^4.15.4",
     "glob": "^4.5.3",
