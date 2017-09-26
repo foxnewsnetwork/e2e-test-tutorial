@@ -2,6 +2,8 @@
 
 https://foxnewsnetwork.github.io/e2e-test-tutorial/
 
+Everything lives under `server/guides`
+
 ## Installation
 
 * `git clone <repository-url>` this repository
